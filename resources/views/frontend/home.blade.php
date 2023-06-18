@@ -306,7 +306,7 @@
                             lng: longitude
                         },
                         map: this.map,
-                        title: 'ตำแหน่งของคุณ',
+                        title: '',
                         label: 'ตำแหน่งของคุณ',
                     });
                 },

@@ -167,7 +167,7 @@
                         <div class="listing-img-wrapper">
                             <img v-if="restaurant.photo != null" :src="restaurant.photo" class="img-fluid mx-auto"
                                 alt="" />
-                            <img v-else src="https://placehold.co/1200x900" class="img-fluid mx-auto" alt="" />
+                            <img v-else src="https://placehold.co/1200x900?text=No%20picture" class="img-fluid mx-auto" alt="" />
                         </div>
 
                         <div class="listing-content">

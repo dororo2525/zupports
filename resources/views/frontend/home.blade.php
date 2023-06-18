@@ -305,7 +305,9 @@
                             lat: latitude,
                             lng: longitude
                         },
-                        map: this.map
+                        map: this.map,
+                        title: 'ตำแหน่งของคุณ',
+                        label: 'ตำแหน่งของคุณ',
                     });
                 },
                 addMarkers() {
@@ -319,7 +321,6 @@
                             },
                             map: this.map,
                             title: restaurant.name,
-                            label: restaurant.name,
                         });
 
                         // เพิ่ม Event ให้กับ Marker แต่ละตัว

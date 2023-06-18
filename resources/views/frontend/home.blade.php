@@ -236,7 +236,7 @@
             },
 
             async mounted() {
-                // เซตให้คำค้นหาปัจจุบันเป็น Bang sue
+                // กำหนดค่าเริ่มต้นการค้นหา Bang sue
                 await this.searchPlaces()
                 // ดึงคำที่เคยค้นหามาแสดงในรายการค้นหาล่าสุด
                 await this.fetchWord();

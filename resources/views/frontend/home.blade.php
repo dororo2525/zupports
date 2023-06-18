@@ -305,9 +305,7 @@
                             lat: latitude,
                             lng: longitude
                         },
-                        map: this.map,
-                        title: '',
-                        label: 'ตำแหน่งของคุณ',
+                        map: this.map
                     });
                 },
                 addMarkers() {
